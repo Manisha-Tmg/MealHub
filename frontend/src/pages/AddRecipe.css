@@ -1,0 +1,42 @@
+.formm {
+  display: grid;
+
+  margin: 20px 55px 55px 355px;
+  text-align: justify;
+}
+
+label {
+  margin-left: 55px;
+}
+input {
+  position: relative;
+  margin: 10px 55px 10px 55px;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  width: 50%;
+  border: 1.5px solid #ff9100;
+  grid-row: 77px;
+}
+.cake {
+  margin: 10px 55px 10px 55px;
+  border: 1.5px solid #ff9100;
+  border-radius: 5px;
+  width: 50%;
+}
+.pa {
+  color: #ff9100;
+  margin: 1px 0px 12px 55px;
+}
+
+input:hover {
+  color: #00712d;
+}
+
+.cook {
+  margin-left: 0;
+  /* margin-right: 45px; */
+  width: 63%;
+  display: flex;
+  margin-top: 5px;
+  gap: 1%;
+}

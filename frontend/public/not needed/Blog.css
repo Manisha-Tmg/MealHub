@@ -1,0 +1,14 @@
+.h2 {
+  color: green;
+}
+.rpost {
+  color: #00712d;
+  margin: 12px 12px 12px 12px;
+  font-size: 32px;
+  /* text-align: justify; */
+  align-items: center;
+  text-decoration: underline #00712d;
+}
+.blog-post {
+  display: flex;
+}

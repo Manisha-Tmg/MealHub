@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  text-align: justify;
+}
+.food {
+  margin: 55px 20px 15px 20px;
+  display: flex;
+  gap: 60px;
+  width: 80px;
+  height: 100px;
+}
+.Food1 {
+  margin: 55px 20px 15px 20px;
+  /* display: flex; */
+  gap: 60px;
+  width: 80px;
+  height: 10px;
+}
+.h0 {
+  color: #00712d;
+  text-decoration: underline;
+}
+.h9 {
+  /* margin-top: 250px; */
+}

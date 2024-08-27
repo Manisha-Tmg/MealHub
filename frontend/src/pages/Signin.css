@@ -1,0 +1,111 @@
+/* Body styling for background */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the body takes up full screen height */
+  margin: 0;
+  padding: 0;
+}
+
+/* Form container styling */
+form {
+  background: #fff;
+  padding: 30px 30px 30px 30px; /* Ensure consistent padding */
+
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+/* Form labels */
+.form-label {
+  font-weight: 600;
+  margin: 15px 20px 0 24px;
+
+  display: block;
+  color: #333;
+  text-align: justify; /* Align text to the left for better readability */
+}
+
+/* Input fields */
+.form-control {
+  width: 90%;
+  padding: 12px 15px;
+
+  margin: 15px 20px 12px 20px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #555;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #00712d;
+  /* outline: none; */
+  box-shadow: 0 0 5px rgba(0, 113, 45, 0.5); /* Corrected box-shadow color */
+}
+
+/* Help text */
+.form-text {
+  font-size: 12px;
+  color: #777;
+}
+
+/* .form-check-label {
+  font-size: 14px;
+  color: #00712d;
+} */
+
+.remember-forgot {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 18px;
+}
+#forgot1 {
+  color: #00712d;
+}
+
+/* Submit button */
+.btn11 {
+  background: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90%;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 15px 20px 12px 20px;
+}
+
+/* Account link styling */
+.account1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.log {
+  color: #00712d;
+  text-decoration: underline;
+  display: inline;
+  /* margin-left: 65px; */
+}
+
+/* Heading styling */
+.h-22 {
+  margin-bottom: 15px;
+  color: #00712d;
+  text-align: center;
+}
+
+/* Image alignment */
+.image {
+  display: none; /* Hidden as it's not necessary in this context */
+}
