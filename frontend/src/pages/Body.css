@@ -1,28 +1,35 @@
 .hero-section {
   display: flex;
-  background-color: #f5eace;
+  /* background-color: #f5eace; */
 }
-
-.hero-image {
-  width: 50%;
-  height: 350px;
-  display: flex;
-  margin-left: 10px;
+.men_text {
+  font-size: 60px;
+  position: relative;
+  top: 40px;
+  left: 20px;
 }
-.hero-text h2 {
+/* .hero-text h2 {
   font-size: 2.7rem;
   color: #00712d;
   font-weight: bold;
   margin: 50px 0px 10px 100px; /*top,right,bottom.left*/
-  align-items: center;
-  text-align: justify;
+/* align-items: center;
+  text-align: justify; */
+/* } */
+.main_image {
+  width: 80%;
+  display: flex;
+  padding: 5px 5px 5px 5px;
+  height: 350px;
+  margin-left: 10px;
+  position: relative;
+  left: 5px;
+  margin-right: 5px;
 }
-
 .highlight {
   margin: 10px 0px 10px 100px; /*top,right,bottom.left*/
   font-size: 1.94rem;
   color: #00712d;
-  /* text-align: justify; */
   display: flex;
   align-items: center;
   gap: 5px;
@@ -36,12 +43,11 @@
 }
 
 .hero-text p {
-  margin: 10px 0px 10px 100px; /*top,right,bottom.left*/
-  font-size: 1rem;
-  margin-bottom: 20px;
-  color: #666;
+  margin: 150px 0px 10px 100px; /*top,right,bottom.left*/
+  width: 625px;
   text-align: justify;
-  padding-right: 145px;
+  position: relative;
+  line-height: 22px;
 }
 
 .hero-section button {

@@ -6,14 +6,16 @@ import Navbar from "../Components/Navbar";
 
 const Home = () => {
   return (
-    <div style={{ marginTop: "35rem" }}>
-      {/* <Navbar /> */}
-      {/* <Body /> */}
-      <p className="h2">Popular Recipes You Can't Miss</p>
-      <p className="pe">
-        From comfort food classics to exotic flavours, our featured
-      </p>
-      <p className="pe1"> recipes are sure to impress.</p>
+    <div>
+      <Navbar />
+
+      <Body />
+
+      <div className="menu">
+        <h1>
+          Our<span>Recipe</span>
+        </h1>
+      </div>
 
       <Recipe />
       <Services />

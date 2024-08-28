@@ -64,7 +64,7 @@ const Login = () => {
       </div>
 
       <div className="remember-forgot">
-        <Link id="forgot" to={""}>
+        <Link id="forgot" to={"/Recoverpassword"}>
           Forgot Password?
         </Link>
       </div>

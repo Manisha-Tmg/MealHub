@@ -11,7 +11,7 @@ const Signin = () => {
           Username{" "}
         </label>
         <input
-          type="email"
+          type="username"
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
@@ -36,11 +36,7 @@ const Signin = () => {
             id="exampleInputPassword1"
           />
         </div>
-        <div className="remember-forgot">
-          <Link id="forgot1" to={"#"}>
-            Forgot Password?
-          </Link>
-        </div>
+
         <button type="submit" className="btn11">
           Signup
         </button>

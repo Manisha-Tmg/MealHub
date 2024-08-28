@@ -7,17 +7,22 @@
   margin-bottom: 10px;
   color: #00712d;
   font-weight: bold;
-  /* text-decoration: underline #00s712d; */
 }
-.pe {
-  font-size: 14px;
-  color: #0f0f0f;
-  margin-left: 460px;
-  text-align: justify;
+span {
+  color: #ff9100;
+  font-size: 45px;
+  font-family: mv boli;
 }
-.pe1 {
-  font-size: 14px;
-  color: #0f0f0f;
-  margin-left: 565px;
-  text-align: justify;
+.menu h1 {
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.menu h1 span {
+  color: #ff9100;
+  margin-left: 15px;
+  font-family: mv boli;
 }

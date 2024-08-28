@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Body styling for background */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -5,8 +10,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh; /* Ensure the body takes up full screen height */
-  margin: 0;
-  padding: 0;
 }
 
 /* Form container styling */
