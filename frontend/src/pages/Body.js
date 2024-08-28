@@ -8,7 +8,7 @@ const Body = () => {
     <section className="hero-section">
       <div className="hero-text">
         <h3 className="highlight">
-          Get Fresh<span>Food</span>in a Easy Way Our{" "}
+          Get Fresh <span>Food</span> <br></br>in a Easy Way{" "}
         </h3>
         <p className="p">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
@@ -21,12 +21,6 @@ const Body = () => {
         </p>
         <button>Explore All Recipes</button>
       </div>
-      {/* <div className="main_image">
-        <img src="image/main_img.png" />
-      </div> */}
-      {/* <div className="hero-image">
-        <img src={Chef} alt="Chef" />
-      </div>{" "} */}
       <div className="main_image">
         <img src={Chef} alt="Chef" />
       </div>{" "}

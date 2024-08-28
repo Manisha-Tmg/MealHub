@@ -8,14 +8,6 @@
   top: 40px;
   left: 20px;
 }
-/* .hero-text h2 {
-  font-size: 2.7rem;
-  color: #00712d;
-  font-weight: bold;
-  margin: 50px 0px 10px 100px; /*top,right,bottom.left*/
-/* align-items: center;
-  text-align: justify; */
-/* } */
 .main_image {
   width: 80%;
   display: flex;
@@ -23,16 +15,17 @@
   height: 350px;
   margin-left: 10px;
   position: relative;
-  left: 5px;
-  margin-right: 5px;
 }
 .highlight {
-  margin: 10px 0px 10px 100px; /*top,right,bottom.left*/
-  font-size: 1.94rem;
+  margin: 50px 0px 10px 100px; /*top,right,bottom.left*/
+  font-size: 2.94rem;
   color: #00712d;
-  display: flex;
   align-items: center;
   gap: 5px;
+}
+.highlight span {
+  color: #ff9100;
+  font-family: mv boli;
 }
 
 .easy {
@@ -43,7 +36,7 @@
 }
 
 .hero-text p {
-  margin: 150px 0px 10px 100px; /*top,right,bottom.left*/
+  margin: 15px 0px 10px 100px; /*top,right,bottom.left*/
   width: 625px;
   text-align: justify;
   position: relative;
