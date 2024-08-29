@@ -5,24 +5,17 @@
 
 /* Body styling for background */
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Ensure the body takes up full screen height */
-  margin: 0;
-  padding: 0;
+  background-image: url(../Images/bg1.jpg);
+  width: 100%;
 }
 
 /* Form container styling */
 form {
   background: #fff;
   padding: 30px 30px 30px 30px; /* Ensure consistent padding */
-
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   max-width: 400px;
-  width: 100%;
   margin-right: 10px;
 }
 
@@ -93,14 +86,13 @@ form {
 .account1 {
   text-align: center;
   margin-top: 15px;
-  margin-left: 25px;
+  margin-left: 55px;
 }
 
 .log {
   color: #00712d;
   text-decoration: underline;
   display: inline;
-  /* margin-left: 65px; */
 }
 
 /* Heading styling */

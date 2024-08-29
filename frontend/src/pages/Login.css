@@ -8,7 +8,8 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
-  align-items: center;
+  background-image: url(../Images/bg1.jpg);
+
   height: 100vh; /* Ensure the body takes up full screen height */
 }
 

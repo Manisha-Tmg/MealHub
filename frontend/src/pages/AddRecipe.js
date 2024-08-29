@@ -1,10 +1,13 @@
 import React from "react";
 import "./AddRecipe.css";
 import NavbarRecipe from "../Components/NavbarRecipe";
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
 
 const AddRecipe = () => {
   return (
     <div>
+      <Navbar />
       <NavbarRecipe />
       <div className="add">
         <div className="formm">
@@ -27,6 +30,7 @@ const AddRecipe = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
