@@ -1,5 +1,5 @@
 import React from "react";
-import "./Forgot.css";
+import "../Css/Forgot.css";
 
 const Resetpass1 = () => {
   return (

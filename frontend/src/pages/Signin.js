@@ -1,12 +1,39 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Signin.css";
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import "../Css/Signin.css";
 import Navbar from "../Components/Navbar";
 const Signin = () => {
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+
+  const handleSignup = async (event) => {
+    event.preventDefault();
+    console.log(email, username, password);
+    try {
+      const res = await fetch("http://localhost:4000/user/register-user", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({ username, email, password }),
+      });
+      const userData = await res.json();
+      if (userData.success) {
+        alert("User created sucessfully");
+        navigate("/login");
+      } else {
+        alert(userData.message);
+      }
+    } catch (error) {
+      console.log("errorrrr 404", error);
+    }
+  };
   return (
     <div>
       <Navbar />
-      <form className="form-sign">
+      <form className="form-sign" onSubmit={handleSignup}>
         <h2 className="h-22">Sign up</h2>
 
         <div className="m-3">
@@ -18,6 +45,9 @@ const Signin = () => {
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            required
           />
           <label for="exampleInputEmail1" className="form-label">
             Email address
@@ -27,6 +57,9 @@ const Signin = () => {
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
           />
 
           <div class="m-3">
@@ -37,10 +70,12 @@ const Signin = () => {
               type="password"
               class="form-control"
               id="exampleInputPassword1"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
             />
           </div>
 
-          <button type="submit" className="btn11">
+          <button type="submit" className="btn11" onClick={handleSignup}>
             Signup
           </button>
           <label className=" account1" for="exampleCheck1">

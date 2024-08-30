@@ -1,5 +1,5 @@
 import React from "react";
-import "./Recipe.css";
+import "../Css/Recipe.css";
 
 import recipe1 from "../Images/Sprout.jpg";
 import recipe2 from "../Images/Chicken.jpg";
@@ -9,7 +9,7 @@ import RecipeCard from "../Components/RecipeCard";
 
 const Recipe = () => {
   return (
-    <div >
+    <div>
       <div className="menu">
         <h1>
           Our<span>Recipe</span>

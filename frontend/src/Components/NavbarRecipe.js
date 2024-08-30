@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavbarRecipe.css";
+import "../Css/NavbarRecipe.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";

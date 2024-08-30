@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutUs.css";
+import "../Css/AboutUs.css";
 import img from "../Images/image 21.png";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";

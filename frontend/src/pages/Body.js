@@ -1,5 +1,5 @@
 import React from "react";
-import "./Body.css";
+import "../Css/Body.css";
 // import Chef from "../Images/Ismange.jpg";
 import Chef from "../Images/main_img.png";
 

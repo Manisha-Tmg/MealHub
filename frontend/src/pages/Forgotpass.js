@@ -1,5 +1,5 @@
 import React from "react";
-import "./Forgot.css";
+import "../Css/Body.css";
 
 const Forgotpass = () => {
   return (

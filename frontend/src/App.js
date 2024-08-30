@@ -24,10 +24,10 @@ function App() {
             <Route path="/AboutUs" element={<AboutUs />} />
             <Route path="/AddRecipe" element={<AddRecipe />} />
             <Route path="/Recipes" element={<Recipes />} />
-            {/* <Route path="/login" element={<Login />} /> */}
-            {/* <Route path="/register" element={<Signin />} /> */}
-            {/* <Route path="/Recoverpassword" element={<Forgotpass />} /> */}
-            {/* <Route path="/Resetpassword" element={<Resetpass1 />} /> */}
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Signin />} />
+            <Route path="/Recoverpassword" element={<Forgotpass />} />
+            <Route path="/Resetpassword" element={<Resetpass1 />} />
           </Routes>
         </Router>
       </div>

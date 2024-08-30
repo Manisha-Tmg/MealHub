@@ -1,12 +1,8 @@
 .hero-section {
   display: flex;
+  width: 100%;
 }
-/* .men_text {
-  font-size: 60px;
-  position: relative;
-  top: 40px;
-  left: 20px;
-} */
+
 .main_image {
   width: 60%;
   display: flex;
@@ -36,7 +32,7 @@
 
 .hero-text p {
   margin: 15px 0px 10px 100px; /*top,right,bottom.left*/
-  width: 565px;
+  width: 100% vw;
   text-align: justify;
   position: relative;
   line-height: 22px;
