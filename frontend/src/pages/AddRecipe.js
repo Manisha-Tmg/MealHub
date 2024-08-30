@@ -6,8 +6,7 @@ import Navbar from "../Components/Navbar";
 
 const AddRecipe = () => {
   return (
-    <div>
-      <Navbar />
+    <div style={{ height: "80vh" }}>
       <NavbarRecipe />
       <div className="add">
         <div className="formm">

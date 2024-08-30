@@ -9,8 +9,7 @@ import RecipeCard from "../Components/RecipeCard";
 
 const Recipe = () => {
   return (
-    <div>
-      {" "}
+    <div >
       <div className="menu">
         <h1>
           Our<span>Recipe</span>

@@ -6,8 +6,7 @@ import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
-    <div>
-      <Navbar />
+    <div style={{ height: "80vh" }}>
       <Body />
       <Recipe />
       <Footer />

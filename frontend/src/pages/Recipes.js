@@ -10,8 +10,8 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 const Recipe = () => {
   return (
-    <div>
-      <Navbar />{" "}
+    <div style={{ height: "80vh" }}>
+      {/* <Navbar />{" "} */}
       <section className="recipe-list1">
         <div className="recipe-list">
           <RecipeCard

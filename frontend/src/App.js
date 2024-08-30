@@ -3,7 +3,6 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import AboutUs from "./pages/AboutUs";
-import Footer from "./Components/Footer";
 import Home from "./pages/Home";
 import AddRecipe from "./pages/AddRecipe";
 import Recipes from "./pages/Recipes";
@@ -12,21 +11,23 @@ import Signin from "./pages/Signin";
 import Forgotpass from "./pages/Forgotpass";
 import Resetpass1 from "./pages/Resetpass1";
 import Navbar from "./Components/Navbar";
+import NavbarRecipe from "./Components/NavbarRecipe";
 
 function App() {
   return (
     <div className="App">
       <div>
         <Router>
+          <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />{" "}
+            <Route path="/" element={<Home />} />
             <Route path="/AboutUs" element={<AboutUs />} />
             <Route path="/AddRecipe" element={<AddRecipe />} />
             <Route path="/Recipes" element={<Recipes />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Signin />} />
-            <Route path="/Recoverpassword" element={<Forgotpass />} />
-            <Route path="/Resetpassword" element={<Resetpass1 />} />
+            {/* <Route path="/login" element={<Login />} /> */}
+            {/* <Route path="/register" element={<Signin />} /> */}
+            {/* <Route path="/Recoverpassword" element={<Forgotpass />} /> */}
+            {/* <Route path="/Resetpassword" element={<Resetpass1 />} /> */}
           </Routes>
         </Router>
       </div>
