@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../Css/Signin.css";
-import Navbar from "../Components/Navbar";
 const Signin = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
@@ -32,7 +31,6 @@ const Signin = () => {
   };
   return (
     <div>
-      <Navbar />
       <form className="form-sign" onSubmit={handleSignup}>
         <h2 className="h-22">Sign up</h2>
 

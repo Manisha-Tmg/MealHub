@@ -10,15 +10,12 @@ import Login from "./pages/Login";
 import Signin from "./pages/Signin";
 import Forgotpass from "./pages/Forgotpass";
 import Resetpass1 from "./pages/Resetpass1";
-import Navbar from "./Components/Navbar";
-import NavbarRecipe from "./Components/NavbarRecipe";
 
 function App() {
   return (
     <div className="App">
       <div>
         <Router>
-          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/AboutUs" element={<AboutUs />} />

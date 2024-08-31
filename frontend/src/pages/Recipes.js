@@ -8,10 +8,12 @@ import recipe4 from "../Images/Cake.jpeg";
 import RecipeCard from "../Components/RecipeCard";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import NavbarRecipe from "../Components/NavbarRecipes";
 const Recipe = () => {
   return (
     <div style={{ height: "80vh" }}>
-      {/* <Navbar />{" "} */}
+      <Navbar />
+      <NavbarRecipe />
       <section className="recipe-list1">
         <div className="recipe-list">
           <RecipeCard

@@ -7,6 +7,7 @@ import Footer from "../Components/Footer";
 function AboutUs() {
   return (
     <section className="about-us" style={{ height: "80vh" }}>
+      <Navbar />
       <div>
         <h1 className="h1">
           About <p className="h">Us</p>

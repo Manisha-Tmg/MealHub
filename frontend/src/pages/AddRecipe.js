@@ -1,12 +1,14 @@
 import React from "react";
 import "../Css/AddRecipe.css";
-import NavbarRecipe from "../Components/NavbarRecipe";
+import NavbaraddRecipe from "../Components/NavbaraddRecipe";
 import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
 
 const AddRecipe = () => {
   return (
-    <div style={{ height: "50vh" }}>
-      <NavbarRecipe />
+    <div style={{ height: "80vh" }}>
+      <Navbar />
+      <NavbaraddRecipe />
       <div className="add">
         <div className="formm">
           <label className="recipee">Recipe Title:</label>

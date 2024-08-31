@@ -1,7 +1,7 @@
 import React from "react";
 import "../Css/Body.css";
-// import Chef from "../Images/Ismange.jpg";
 import Chef from "../Images/main_img.png";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   return (
@@ -19,7 +19,9 @@ const Body = () => {
           quo sunt esse tempore inventore vel voluptate, amet laudantium
           adipisci veniam nihil quam molestiae omnis mollitia.
         </p>
-        <button>Explore All Recipes</button>
+        <Link to={"/recipes"}>
+          <button>Explore All Recipes</button>
+        </Link>
       </div>
       <div className="main_image">
         <img src={Chef} alt="Chef" />
