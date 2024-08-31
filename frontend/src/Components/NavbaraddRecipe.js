@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-const NavbarRecipes = () => {
+const NavbaraddRecipe = () => {
   return (
     <div className="NavbarRecipe">
       <div className="icons">
@@ -15,10 +15,15 @@ const NavbarRecipes = () => {
         <h2 className="h22">Add New Recipe</h2>{" "}
       </div>
       <div className="bt1">
-        <button className="bt">Post Recipe</button>
+        <Link to={"/"}>
+          {" "}
+          <button className="bt" onclick={"/recipes"}>
+            Post Recipe
+          </button>
+        </Link>
       </div>
     </div>
   );
 };
 
-export default NavbarRecipes;
+export default NavbaraddRecipe;
