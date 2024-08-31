@@ -51,40 +51,6 @@ const Recipe = () => {
             servings="2 persons"
           />
         </div>
-        <div className="recipe-list">
-          <RecipeCard
-            image={recipe4}
-            title="Chocolate Cake"
-            description="Search 2 million recipes using keywords, 28 nutrients and 40 diet and health filters."
-            time="20 mins"
-            difficulty="Easy"
-            servings="2 persons"
-          />
-          <RecipeCard
-            image={recipe4}
-            title="Chocolate Cake"
-            description="Search 2 million recipes using keywords, 28 nutrients and 40 diet and health filters."
-            time="20 mins"
-            difficulty="Easy"
-            servings="2 persons"
-          />
-          <RecipeCard
-            image={recipe4}
-            title="Chocolate Cake"
-            description="Search 2 million recipes using keywords, 28 nutrients and 40 diet and health filters."
-            time="20 mins"
-            difficulty="Easy"
-            servings="2 persons"
-          />
-          <RecipeCard
-            image={recipe4}
-            title="Chocolate Cake"
-            description="Search 2 million recipes using keywords, 28 nutrients and 40 diet and health filters."
-            time="20 mins"
-            difficulty="Easy"
-            servings="2 persons"
-          />
-        </div>
       </section>
       <Footer />
     </div>

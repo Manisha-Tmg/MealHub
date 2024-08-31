@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import Signin from "./pages/Signin";
 import Forgotpass from "./pages/Forgotpass";
 import Resetpass1 from "./pages/Resetpass1";
+import Details from "./pages/Details";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/register" element={<Signin />} />
             <Route path="/Recoverpassword" element={<Forgotpass />} />
             <Route path="/Resetpassword" element={<Resetpass1 />} />
+            <Route path="/Details" element={<Details />} />
           </Routes>
         </Router>
       </div>

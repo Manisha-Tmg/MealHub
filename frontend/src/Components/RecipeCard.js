@@ -1,5 +1,6 @@
 import React from "react";
 import "../Css/RecipeCard.css";
+import { Link } from "react-router-dom";
 
 function RecipeCard({ image, title, description, time, difficulty, servings }) {
   return (
@@ -13,7 +14,9 @@ function RecipeCard({ image, title, description, time, difficulty, servings }) {
         <span>{servings}</span>
       </div>
 
-      <button className="button">See Full Details</button>
+      <Link to={"/Details"}>
+        <button className="button">See Full Details</button>
+      </Link>
     </div>
   );
 }
