@@ -12,7 +12,7 @@ const AddRecipe = () => {
       <div className="add">
         <div className="formm">
           <label className="recipee">Recipe Title:</label>
-          <img className="cake" src="" alt="Cake.jpeg"></img>
+          {/* <img className="cake" src="" alt="Cake.jpeg"></img> */}
           <input className="input1" type="text"></input>
           <label className="des">Description:</label>
           <input className="input1" type="text"></input>
