@@ -67,6 +67,7 @@ const loginUser = async (req, res) => {
   }
 };
 
+const addRecipe = (req, res) => {};
 module.exports = {
   registerUser,
   loginUser,

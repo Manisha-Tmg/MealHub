@@ -11,12 +11,14 @@ import Signin from "./pages/Signin";
 import Forgotpass from "./pages/Forgotpass";
 import Resetpass1 from "./pages/Resetpass1";
 import Details from "./pages/Details";
+// import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div className="App">
       <div>
         <Router>
+          {/* <Navbar /> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/AboutUs" element={<AboutUs />} />

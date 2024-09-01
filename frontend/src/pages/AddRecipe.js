@@ -24,7 +24,6 @@ const AddRecipe = () => {
           <input className="input1"></input>
           <label>Cooking Time:</label>
           <div className="cook">
-            {" "}
             <input></input>
             <input></input>
           </div>
