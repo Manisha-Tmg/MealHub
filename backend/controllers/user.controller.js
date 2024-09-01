@@ -67,8 +67,25 @@ const loginUser = async (req, res) => {
   }
 };
 
-const addRecipe = (req, res) => {};
+const recipeUser = async (req, res) => {
+  try {
+    const { title, description, ingredients, instruction, time } = req.body;
+    const newRecipe = await Recipe.create({
+      title,
+      description,
+      ingredients,
+      instruction,
+      time,
+    });
+    await newRecipe.save();
+  } catch (error) {
+    return res
+      .status(400)
+      .json({ success: false, message: "Unable to add recipe.", error: error });
+  }
+};
 module.exports = {
   registerUser,
   loginUser,
+  recipeUser,
 };
