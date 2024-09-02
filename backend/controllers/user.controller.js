@@ -1,4 +1,5 @@
 const User = require("../models/user.models");
+const Recipe = require("../models/user.models");
 const jwt = require("jsonwebtoken");
 
 // user registration
@@ -69,16 +70,22 @@ const loginUser = async (req, res) => {
 
 const recipeUser = async (req, res) => {
   try {
-    const { title, description, ingredients, instruction, time } = req.body;
+    const { title, description, ingredients, instructions, time } = req.body;
+    console.log(req.body);
     const newRecipe = await Recipe.create({
       title,
       description,
       ingredients,
-      instruction,
+      instructions,
       time,
     });
     await newRecipe.save();
+
+    return res
+      .status(201)
+      .json({ success: false, message: "Created sucessfully.", newRecipe });
   } catch (error) {
+    console.log(error);
     return res
       .status(400)
       .json({ success: false, message: "Unable to add recipe.", error: error });
