@@ -5,12 +5,9 @@
 
 /* Body styling for background */
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  justify-content: center;
-  background-image: url(../Images/bg1.jpg);
+  /* background-image: url(../Images/bg1.jpg); */
 
-  height: 100vh; /* Ensure the body takes up full screen height */
+  /* height: 100vh; Ensure the body takes up full screen height */
 }
 
 /* Form container styling */
@@ -92,7 +89,7 @@ form {
 .account {
   text-align: center;
   margin-top: 15px;
-  padding-left: 25px;
+  padding-left: 35px;
 }
 
 .sign {
