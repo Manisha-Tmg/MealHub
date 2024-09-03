@@ -50,7 +50,7 @@ const AddRecipe = () => {
         <NavbaraddRecipe />
 
         <div className="formm" onSubmit={handleRecipe}>
-          <label className="recipee">Recipe Title:</label>
+          <label className="label1">Recipe Title:</label>
           {/* <img className="cake" src="" alt="Cake.jpeg"></img> */}
           <input
             className="input1"
@@ -59,7 +59,7 @@ const AddRecipe = () => {
             onChange={(e) => setTitle(e.target.value)}
             required
           ></input>
-          <label className="des">Description:</label>
+          <label className="label1">Description:</label>
           <input
             className="input1"
             type="text"
@@ -67,7 +67,7 @@ const AddRecipe = () => {
             onChange={(e) => setDescription(e.target.value)}
             required
           ></input>
-          <label>Ingredients:</label>
+          <label className="label1">Ingredients:</label>
           <input className="input1"></input>{" "}
           <input
             className="input1"
@@ -77,13 +77,13 @@ const AddRecipe = () => {
             required
           ></input>
           <p className="pa">+Add</p>
-          <label>Instructions:</label>
+          <label className="label1">Instructions:</label>
           <input
             className="input1"
             value={instructions}
             onChange={(e) => setInstructions(e.target.value)}
           ></input>
-          <label>Cooking Time:</label>
+          <label className="label1">Cooking Time:</label>
           <div className="cook">
             <input
               className="in"

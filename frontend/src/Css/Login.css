@@ -92,7 +92,7 @@ form {
 .account {
   text-align: center;
   margin-top: 15px;
-  margin-left: 25px;
+  padding-left: 25px;
 }
 
 .sign {

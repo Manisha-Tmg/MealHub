@@ -1,5 +1,4 @@
-.bt1 {
-  padding-left: 20%;
+.mainn {
 }
 .formm {
   display: grid;
@@ -11,7 +10,7 @@
   margin: 0;
   padding: 0;
 }
-label {
+.label1 {
   padding-left: 455px;
 }
 input {
