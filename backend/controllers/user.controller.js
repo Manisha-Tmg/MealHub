@@ -68,6 +68,7 @@ const loginUser = async (req, res) => {
   }
 };
 
+//for addrecipe
 const recipeUser = async (req, res) => {
   try {
     const { title, description, ingredients, instructions, time } = req.body;
