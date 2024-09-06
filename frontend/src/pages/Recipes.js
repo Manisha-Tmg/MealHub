@@ -11,7 +11,7 @@ import Footer from "../Components/Footer";
 import NavbarRecipes from "../Components/NavbarRecipes";
 const Recipe = () => {
   return (
-    <div style={{ height: "80vh" }}>
+    <div className="our-recipe" style={{ height: "80vh" }}>
       <Navbar />
       <NavbarRecipes />
       <section className="recipe-list1">
