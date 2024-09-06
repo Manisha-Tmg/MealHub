@@ -1,6 +1,7 @@
 .about-us {
-  padding-top: 15px;
+  padding-top: 4%;
   text-align: center;
+  width: 100%;
 }
 .about {
   display: flex;
@@ -11,41 +12,36 @@
 
 .h1 {
   font-size: 3rem;
-  color: #00712d;
-  margin-bottom: 20px;
-  margin-left: 35px;
-  /* text-align: justify; */
-  margin-left: 45px;
+  color: #000000;
+  padding: 20px 20px 20px 20px;
 }
 
 .ptag {
   font-size: 1rem;
   color: #000000;
-  max-width: 600px;
-  margin-top: 25px;
-  margin-left: 45px;
+  max-width: 60%;
+  padding: 20px 5px 20px 60px;
   row-gap: 0%;
   margin-bottom: 0;
   text-align: justify;
   display: inline-flex;
 }
 .img {
-  gap: 2px;
   position: relative;
   object-fit: contain;
   display: inline-flex;
-  margin-right: 15px;
-  margin-bottom: 40;
+  margin-bottom: 40px;
   margin-top: 30px;
-  margin-left: 110px;
-  width: 650px;
-  height: 510px;
+  width: 550px;
+  height: 500px;
+  margin-left: 4px;
   padding: 0px;
   vertical-align: middle;
-  /* border-radius: 50%; */
 }
 .h {
   display: inline;
   color: #ff9100;
+  font-family: mv boli;
+
   font-size: 3rem;
 }

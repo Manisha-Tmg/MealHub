@@ -1,14 +1,14 @@
 import React from "react";
 import "../Css/AboutUs.css";
-import img from "../Images/image 21.png";
+import img from "../Images/Food-Plate.png";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 
 function AboutUs() {
   return (
-    <section className="about-us" style={{ height: "80vh" }}>
+    <section style={{ height: "80vh" }}>
       <Navbar />
-      <div>
+      <div className="about-us">
         <h1 className="h1">
           About <p className="h">Us</p>
         </h1>
