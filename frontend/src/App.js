@@ -11,13 +11,14 @@ import Signin from "./pages/Signin";
 import Forgotpass from "./pages/Forgotpass";
 import Resetpass1 from "./pages/Resetpass1";
 import Details from "./pages/Details";
-// import Navbar from "./Components/Navbar";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div className="App">
       <div>
         <Router>
+          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/AboutUs" element={<AboutUs />} />
@@ -27,7 +28,8 @@ function App() {
             <Route path="/register" element={<Signin />} />
             <Route path="/Recoverpassword" element={<Forgotpass />} />
             <Route path="/Resetpassword" element={<Resetpass1 />} />
-            <Route path="/Details" element={<Details />} />
+            {/* <Route path="/Details" element={<Details />} /> */}
+            <Route path="/recipe/:id" element={<Details />} />
           </Routes>
         </Router>
       </div>
