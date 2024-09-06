@@ -1,10 +1,14 @@
 /* Body styling for background */
 body {
+  margin: 0;
+  padding: 0;
+}
+.body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Ensure the body takes up full screen height */
+  height: 100vh; /* Ensure the body takes up full screen height*/
   margin: 0;
   padding: 0;
 }
@@ -13,7 +17,7 @@ body {
 form {
   background: #fff;
   padding: 30px 30px 30px 30px; /* Ensure consistent padding */
-
+  justify-content: center;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   max-width: 400px;

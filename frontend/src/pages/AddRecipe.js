@@ -11,28 +11,31 @@ const AddRecipe = () => {
   const [ingredients, setIngredients] = useState();
   const [instructions, setInstructions] = useState();
   const [time, setTime] = useState();
+  const [image, setImage] = useState(null); // New state for the image
   const navigate = useNavigate();
+
   const handleRecipe = async (event) => {
     event.preventDefault();
+
+    const formData = new FormData(); // Create form data to send both text and image
+    formData.append("title", title);
+    formData.append("description", description);
+    formData.append("ingredients", ingredients);
+    formData.append("instructions", instructions);
+    formData.append("time", time);
+    if (image) {
+      formData.append("image", image); // Append the image if available
+    }
 
     try {
       const res = await fetch("http://localhost:4000/user/recipe-user", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          title,
-          description,
-          ingredients,
-          instructions,
-          time,
-        }),
+        body: formData, // Send formData instead of JSON
       });
 
       const recipeData = await res.json();
       if (recipeData.success) {
-        alert("Recipe added sucessfully");
+        alert("Recipe added successfully");
         navigate("/");
       } else {
         alert(recipeData.message);
@@ -51,7 +54,6 @@ const AddRecipe = () => {
 
         <div className="formm" onSubmit={handleRecipe}>
           <label className="label1">Recipe Title:</label>
-          {/* <img className="cake" src="" alt="Cake.jpeg"></img> */}
           <input
             className="input1"
             type="text"
@@ -59,6 +61,13 @@ const AddRecipe = () => {
             onChange={(e) => setTitle(e.target.value)}
             required
           ></input>
+          <label className="label1">Recipe Image:</label>
+          <input
+            className="input1"
+            type="file"
+            accept="image/*"
+            onChange={(e) => setImage(e.target.files[0])}
+          />
           <label className="label1">Description:</label>
           <input
             className="input1"
@@ -68,7 +77,7 @@ const AddRecipe = () => {
             required
           ></input>
           <label className="label1">Ingredients:</label>
-          <input className="input1"></input>{" "}
+          <input className="input1"></input>
           <input
             className="input1"
             type=""
@@ -85,11 +94,6 @@ const AddRecipe = () => {
           ></input>
           <label className="label1">Cooking Time:</label>
           <div className="cook">
-            <input
-              className="in"
-              value={time}
-              onChange={(e) => setTime(e.target.value)}
-            ></input>
             <input
               className="in"
               value={time}

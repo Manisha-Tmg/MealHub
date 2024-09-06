@@ -1,8 +1,8 @@
 .mainn {
+  width: 100%;
 }
 .formm {
   display: grid;
-  /* margin: 0 55px 55px 355px; */
   padding: 20px 20px 20px 20px;
   text-align: justify;
 }
@@ -41,10 +41,6 @@ input:hover {
   color: #00712d;
 }
 
-/* .bt1 {
-  display: inline;
-  padding: 44%;
-} */
 .btt {
   padding: 10px 10px 10px 10px;
   width: 15%;
