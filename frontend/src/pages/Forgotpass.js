@@ -10,7 +10,7 @@ const Forgotpass = () => {
           Enter your phone number to receive your password reset instructions.
         </p>
         <div className="mb-3">
-          <label for="exampleInputEmail1" className="form-label">
+          <label for="exampleInputEmazil1" className="form-label">
             Phone Number
           </label>
           <input

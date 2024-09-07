@@ -14,7 +14,7 @@ function RecipeCard({ image, title, description, time, difficulty, servings }) {
         <span>{servings}</span>
       </div>
 
-      <Link to={"/Details"}>
+      <Link to={"/recipe/:id"}>
         <button className="button">See Full Details</button>
       </Link>
     </div>

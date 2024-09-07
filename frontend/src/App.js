@@ -28,7 +28,6 @@ function App() {
             <Route path="/register" element={<Signin />} />
             <Route path="/Recoverpassword" element={<Forgotpass />} />
             <Route path="/Resetpassword" element={<Resetpass1 />} />
-            {/* <Route path="/Details" element={<Details />} /> */}
             <Route path="/recipe/:id" element={<RecipeDetails />} />
           </Routes>
         </Router>
