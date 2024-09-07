@@ -1,7 +1,11 @@
 import React from "react";
-import "../Css/Details.css"
+import "../Css/Details.css";
 import RecipeHeader from "./RecipeHeader";
 import RecipeDetails from "./RecipeDetails";
+import Instructions from "./Instructions";
+import IngredientsList from "./IngredientsList";
+import Footer from "../Components/Footer";
+import RelatedRecipes from "./RelatedRecipes";
 
 const Details = () => {
   return (
@@ -10,12 +14,12 @@ const Details = () => {
         <RecipeHeader />
         <RecipeDetails />
         <RecipeDetails />
-        <I
         <Instructions />
-        <NutritionFacts />
+        <IngredientsList />
       </div>
       <div className="related-recipes">
         <RelatedRecipes />
+        <Footer />
       </div>
     </div>
   );

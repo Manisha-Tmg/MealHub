@@ -11,7 +11,7 @@ import Signin from "./pages/Signin";
 import Forgotpass from "./pages/Forgotpass";
 import Resetpass1 from "./pages/Resetpass1";
 import Navbar from "./Components/Navbar";
-import RecipeDetails from "./pages/RecipeDetails";
+import Details from "./pages/Details";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
             <Route path="/register" element={<Signin />} />
             <Route path="/Recoverpassword" element={<Forgotpass />} />
             <Route path="/Resetpassword" element={<Resetpass1 />} />
-            <Route path="/recipe/:id" element={<RecipeDetails />} />
+            <Route path="/recipe/id" element={<Details />} />
           </Routes>
         </Router>
       </div>
