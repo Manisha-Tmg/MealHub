@@ -8,6 +8,18 @@ body {
   background-image: url(../Images/bg1.jpg);
 }
 
+.body-signin {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the body takes up full screen height*/
+  margin: 0;
+  padding: 0;
+  /* padding-top: 87%; */
+  margin-top: 3%;
+}
+
 /* Form container styling */
 form {
   background: #fff;
@@ -97,7 +109,7 @@ form {
 /* Heading styling */
 .h-22 {
   margin-bottom: 15px;
-  color: #00712d;
+  color: #000000;
   text-align: center;
 }
 
@@ -105,3 +117,8 @@ form {
 .image {
   display: none; /* Hidden as it's not necessary in this context */
 }
+/* .span-s {
+  font-family: mv boli;
+  display: inline;
+  color: #ff9100; */
+/* } */

@@ -30,9 +30,9 @@ const Signin = () => {
     }
   };
   return (
-    <div>
+    <div className="body-signin">
       <form className="form-sign" onSubmit={handleSignup}>
-        <h2 className="h-22">Sign up</h2>
+        <h2 className="h-22">SIGN UP</h2>
 
         <div className="m-3">
           <label for="exampleInputEmail1" className="form-label">

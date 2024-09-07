@@ -4,10 +4,16 @@
 }
 
 /* Body styling for background */
-body {
-  /* background-image: url(../Images/bg1.jpg); */
 
-  /* height: 100vh; Ensure the body takes up full screen height */
+.body-login {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the body takes up full screen height*/
+  margin: 0;
+  padding: 0;
+  padding-top: 5%;
 }
 
 /* Form container styling */

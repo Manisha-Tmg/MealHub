@@ -3,7 +3,7 @@ import "../Css/Forgot.css";
 
 const Resetpass1 = () => {
   return (
-    <div>
+    <div className="body-forgot">
       <form className="form-login">
         <h2 className="h-2">Reset Password</h2>
         <p className="enter">Please reset your password.</p>

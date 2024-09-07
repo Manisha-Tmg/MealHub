@@ -7,7 +7,7 @@ import Navbar from "../Components/Navbar";
 const Home = () => {
   return (
     <div style={{ height: "80vh" }}>
-      {/* <Navbar /> */}
+      <Navbar />
       <Body />
       <Recipe />
       <Footer />

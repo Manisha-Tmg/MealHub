@@ -3,7 +3,7 @@ import "../Css/Body.css";
 
 const Forgotpass = () => {
   return (
-    <div className="body">
+    <div className="body-forgot">
       <form className="form-login">
         <h2 className="h-2">Forgot Password</h2>
         <p className="enter">
