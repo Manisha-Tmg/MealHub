@@ -5,22 +5,21 @@ import RecipeDetails from "./RecipeDetails";
 import Instructions from "./Instructions";
 import IngredientsList from "./IngredientsList";
 import Footer from "../Components/Footer";
-import RelatedRecipes from "./RelatedRecipes";
+import RecipeImage from "./RecipeImage";
 
 const Details = () => {
   return (
-    <div className="recipe-container">
-      <div className="main-recipe">
-        <RecipeHeader />
-        <RecipeDetails />
-        <RecipeDetails />
-        <Instructions />
-        <IngredientsList />
+    <div>
+      <div className="recipe-container">
+        <div className="main-recipe">
+          <RecipeHeader />
+          <RecipeDetails />
+          <RecipeImage />
+          <IngredientsList />
+          <Instructions />
+        </div>
       </div>
-      <div className="related-recipes">
-        <RelatedRecipes />
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 };

@@ -1,17 +1,13 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-}
-
 .recipe-container {
   display: flex;
   justify-content: space-between;
   margin: 20px;
+  padding-top: 5%;
 }
 
 .main-recipe {
   width: 70%;
+  justify-items: center;
   padding: 20px;
   background-color: white;
   border-radius: 8px;
@@ -44,6 +40,7 @@ body {
   width: 100%;
   border-radius: 8px;
   margin: 10px 0;
+  padding: 30px 30px 30px 30px;
 }
 
 .ingredients-list,
