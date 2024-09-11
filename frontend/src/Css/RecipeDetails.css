@@ -16,7 +16,9 @@
 .header-right {
   flex: 1;
 }
-
+.main-recipe {
+  justify-items: center;
+}
 .recipe-main-image {
   max-width: 100%;
   height: auto;
