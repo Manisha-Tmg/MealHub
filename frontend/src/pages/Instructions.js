@@ -20,6 +20,14 @@ const Instructions = () => {
             In a large mixing bowl, toss the mixed greens, cucumber slices,
             cilantro, black beans, and cooked quinoa together.
           </li>
+          <li>
+            Pour the sun-dried tomato dressing over the salad and toss to
+            combine. Add salt and pepper to taste.
+          </li>
+          <li>
+            Divide the salad among plates and garnish with extra sun-dried
+            tomatoes and a sprinkle of red pepper flakes, if desired.
+          </li>
         </ol>
       </div>
     </div>
