@@ -4,7 +4,7 @@ import "../Css/Footer.css";
 function Footer() {
   return (
     <footer>
-      <p>&copy; 2024 Cooking Inc. All rights reserved.</p>
+      <p>&copy; MealHub 2024. All rights reserved.</p>
     </footer>
   );
 }
